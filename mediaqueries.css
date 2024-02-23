@@ -16,6 +16,10 @@
         width: 100vw; /* Adjusts width to be more suitable for smaller screens */
         align-items: center;
     }
+
+    ul {
+        margin-right: 0rem;
+    }
 }
 
 @media (max-width: 900px) {
