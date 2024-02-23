@@ -112,14 +112,14 @@ a {
     background-color: #191414;
 }
 
-.playlist-container {
+.playlist-container ul{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
 }
 
-#playlists iframe {
-    width: 400px;
+iframe {
+    width: 30vw;
     height: 500px;
 }
 

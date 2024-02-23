@@ -1,0 +1,101 @@
+@media (max-width: 1300px) {
+    .intro-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    button {
+        width: 30vw; /* Makes buttons wider on smaller screens */
+        height: 10vh; /* Adjusts button height to be content-based */
+        padding: 10px; /* Adds some padding inside the button */
+        font-size: 3vh;
+    }
+
+    .text-container {
+        width: 80vw; /* Adjusts width to be more suitable for smaller screens */
+        align-items: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .header, .intro-container, .playlist-container ul, #about .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-container, .playlist-container iframe, #about .container {
+        width: 80vw; /* Adjusts width to be more suitable for smaller screens */
+        align-items: center;
+    }
+    #about .container {
+        flex-direction: column;
+    }
+
+    .header {
+        height: auto; /* Allows the header to expand vertically as needed */
+        padding: 8px;
+    }
+
+    .heading {
+        font-size: 48px; /* Adjusts heading size for smaller screens */
+    }
+
+    .text, .footer, ul {
+        font-size: 20px; /* Adjusts text size for better readability on smaller screens */
+    }
+
+    img {
+        height: auto; /* Makes images more responsive */
+        max-width: 100%; /* Ensures images don't overflow their containers */
+    }
+
+    .quote {
+        font-size: 2rem;
+    }
+
+    #about .header {
+        font-size: 15px;
+    }
+
+    .credit {
+        margin-left: 0px; /* Adjusts alignment of credit text */
+    }
+
+    #about button {
+        margin-top: 20px;
+    }
+
+    #about .button.container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    #about .button-info {
+        margin-right: 0px;
+    }
+
+    #about .button.container .text{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 36px; /* Even smaller font size for very small devices */
+    }
+
+    .logo {
+        font-size: 36px; /* Adjusts logo size for smaller screens */
+    }
+
+    ul {
+        flex-direction: column; /* Stacks nav items vertically */
+        gap: 1rem; /* Reduces gap for smaller screens */
+    }
+
+    #about .header {
+        font-size: 10px;
+    }
+}
