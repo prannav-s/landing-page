@@ -114,6 +114,8 @@ a {
 
 .playlist-container {
     display: flex;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 #playlists iframe {
@@ -126,6 +128,7 @@ a {
     font-size: 30px;
     color: #1DB954;
     font-weight: 600;
+    margin-bottom: 30px;
 }
 
 #playlists li {
