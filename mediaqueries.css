@@ -91,6 +91,11 @@
 }
 
 @media (max-width: 480px) {
+
+    button {
+        width: 50vw;
+    }
+
     .heading {
         font-size: 36px; /* Even smaller font size for very small devices */
     }
@@ -99,7 +104,7 @@
         font-size: 36px; /* Adjusts logo size for smaller screens */
     }
 
-    ul {
+    #intro ul {
         gap: 1rem; /* Reduces gap for smaller screens */
         font-size: 15px;
 
