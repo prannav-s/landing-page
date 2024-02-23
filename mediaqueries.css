@@ -3,6 +3,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+
     }
     button {
         width: 30vw; /* Makes buttons wider on smaller screens */
@@ -12,7 +13,7 @@
     }
 
     .text-container {
-        width: 80vw; /* Adjusts width to be more suitable for smaller screens */
+        width: 100vw; /* Adjusts width to be more suitable for smaller screens */
         align-items: center;
     }
 }
@@ -24,7 +25,7 @@
         text-align: center;
     }
 
-    .text-container, .playlist-container iframe, #about .container {
+  .playlist-container iframe, #about .container {
         width: 80vw; /* Adjusts width to be more suitable for smaller screens */
         align-items: center;
     }
@@ -79,6 +80,10 @@
     #about .button.container .text{
         font-size: 1.5rem;
     }
+    
+    #about .heading {
+        font-size: 8vw;
+    }
 }
 
 @media (max-width: 480px) {
@@ -91,8 +96,9 @@
     }
 
     ul {
-        flex-direction: column; /* Stacks nav items vertically */
         gap: 1rem; /* Reduces gap for smaller screens */
+        font-size: 15px;
+
     }
 
     #about .header {
